@@ -1,21 +1,63 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <!-- Base application theme. -->
-    <style name="StylishAppCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-        <item name="colorPrimary">@color/primaryColor</item>
-        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
-        <item name="colorOnPrimary">@color/primaryLightColor</item>
-        <item name="android:textColor">@color/primaryTextColor</item>
-        <item name="colorSecondaryVariant">@color/primaryLightColor</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <style name="EditTextCustom" parent="android:style/Widget.EditText">
-            <item name="android:background">@color/primaryDarkColor</item>
-            <item name="android:textColor">@color/colorGrey</item>
-            <item name="android:padding">@dimen/editTextPadding</item>
-            <item name="android:layout_width">@dimen/editTextWidth</item>
-            <item name="android:layout_height">@dimen/editTextHeight</item>
-        </style>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
     </style>
+
+    <!-- The AppThemePink style theme inherits from the default theme (same as above)
+     and only changes the key colors and adds more properties to it  -->
+
+    <style name="AppThemePink" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColorNavy</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColorNavy</item>
+        <item name="colorAccent">@color/primaryDarkColorNavy</item>
+        <item name="android:textColor">@color/primaryTextColorNavy</item>
+        <item name="android:textSize">@dimen/fontsize</item>
+        <item name="editTextStyle">@style/EditTextTest</item>
+        <item name="android:textViewStyle">@style/TextViewCustom</item>
+    </style>
+    <!-- for some reason EditText style only worked universally if android: was
+         removed.  https://stackoverflow.com/questions/32377202/android-set-edit-text-style-globally-in-theme-doesnt-work
+         -->
+
+    <style name="AppThemeBlue" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColorNavy</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColorNavy</item>
+        <item name="colorAccent">@color/primaryLightColorNavy</item>
+        <item name="android:textColor">@color/primaryTextColorNavy</item>
+        <item name="android:textSize">@dimen/fontsize</item>
+    </style>
+
+
+    <!-- These styles are set up to give special styling to all of my EditText boxes
+       I can apply this style tag to my EditText tags and these fields will all be applied.
+       This is a way to have a preset list of settings without having to copy/paste them everywhere
+       notice that within the style settings I can still refer to the colors and dimens files-->
+
+
+    <style name="EditTextTest" parent="android:style/Widget.EditText">
+        <item name="android:background">@color/secondaryColorNavy</item>
+        <item name="android:textColor">@color/secondaryLightColorNavy</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:layout_width">@dimen/editTextWidth</item>
+        <item name="android:layout_height">@dimen/editTextHeight</item>
+    </style>
+
+    <style name="EditTextCustom" parent="android:style/Widget.EditText">
+        <item name="android:background">@color/secondaryColorNavy</item>
+        <item name="android:textColor">@color/secondaryLightColorNavy</item>
+        <item name="android:padding">@dimen/editTextPadding</item>
+        <item name="android:layout_width">@dimen/editTextWidth</item>
+        <item name="android:layout_height">@dimen/editTextHeight</item>
+    </style>
+
+    <style name="TextViewCustom">
+        <item name="android:textColor">@color/secondaryDarkColorNavy</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
 </resources>

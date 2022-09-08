@@ -1,20 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Default Android colors -->
+    <color name="primaryColor">#fafafa</color>
+
+    <color name="primaryLightColor">#ffffff</color>
+
+    <color name="primaryDarkColor">#c7c7c7</color>
+
+    <color name="secondaryColor">#bf360c</color>
+
+    <color name="secondaryLightColor">#f9683a</color>
+
+    <color name="secondaryDarkColor">#870000</color>
+
+    <color name="primaryTextColor">#000000</color>
+
+    <color name="secondaryTextColor">#ffffff</color>
+    <!--
     <color name="primaryColor">#212121</color>
-    <color name="black">#ffffff</color>
+
+<color name="primaryLightColor">#484848</color>
+
+<color name="primaryDarkColor">#000000</color>
+
+<color name="secondaryColor">#0277bd</color>
+
+<color name="secondaryLightColor">#58a5f0</color>
+
+<color name="secondaryDarkColor">#004c8c</color>
+
+<color name="primaryTextColor">#ffffff</color>
+
+<color name="secondaryTextColor">#ffffff</color>
+-->
 
 
-    <color name="primaryLightColor">#484848</color>
+    <color name="primaryColorNavy">	#2d383c</color>
 
-    <color name="primaryDarkColor">#000000</color>
+    <color name="primaryLightColorNavy">#192428</color>
 
-    <color name="secondaryColor">#26c6da</color>
+    <color name="primaryDarkColorNavy">#414c50</color>
 
-    <color name="secondaryLightColor">#6ff9ff</color>
+    <color name="secondaryColorNavy">#0277bd</color>
 
-    <color name="secondaryDarkColor">#0095a8</color>
+    <color name="secondaryLightColorNavy">#58a5f0</color>
 
-    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryDarkColorNavy">#004c8c</color>
 
-    <color name="secondaryTextColor">#000000</color>
+    <color name="primaryTextColorNavy">#39ace7</color>
+
+    <color name="secondaryTextColorNavy">#0784b5</color>
+    <?xml version="1.0"?>
+
+    <!--?xml version="1.0" encoding="UTF-8"?-->
+
+    <!-- https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=FAFAFA&secondary.color=BF360C -->
+
+
+
 </resources>

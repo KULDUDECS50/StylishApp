@@ -1,39 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#000">
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="15dp"
-        android:gravity="center_horizontal">
+        android:layout_margin="@dimen/screenMargin"
+        android:gravity="center_horizontal"
+        >
+        <TextView
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:text="First Name"
+            android:paddingTop="@dimen/topPadding"
+            style="@style/TextViewCustom"/>
 
         <EditText
-            android:layout_width="110dp"
-            android:layout_height="200dp"
-            android:text="Hello World!"
+            android:id="@+id/firstName"
+            android:inputType="textCapWords"
             style="@style/EditTextCustom"
+            android:hint="Andrew"/>
+        <!--  Here I applied a different style for the
+            EditText than what is applied at the theme level
+        -->
 
+        <TextView
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:text="Last Name"
 
             />
 
+        <EditText
+            android:id="@+id/lastName"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:inputType="textCapWords"
+            android:hint="Tate"
+            />
+
+        <TextView
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:text="Phone Number"
+            android:paddingTop="@dimen/topPadding"/>
+
+        <EditText
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:id="@+id/phoneNum"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:text="Email"
+            android:paddingTop="@dimen/topPadding"/>
+
+        <EditText
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:id="@+id/email"
+            android:textColor="@color/secondaryTextColorNavy"
+            android:inputType="textEmailAddress"
+            />
+        <!-- you can see this textColor overrides the
+               text color listed for EditText settings applied
+               at the theme level -->
+
+<!--        <TextView-->
+<!--            android:layout_width="@dimen/editTextWidth"-->
+<!--            android:layout_height="@dimen/editTextHeight"-->
+<!--            android:text="Password"-->
+<!--            android:paddingTop="@dimen/topPadding"/>-->
+
+
+<!--        <EditText-->
+<!--            android:layout_width="@dimen/editTextWidth"-->
+<!--            android:layout_height="@dimen/editTextHeight"-->
+<!--            android:id="@+id/password"-->
+<!--            android:inputType="textPassword" />-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:layout_marginTop="50dp"
+            android:text="hustle" />
+
     </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
 </ScrollView>
-
-

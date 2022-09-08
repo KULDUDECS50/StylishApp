@@ -8,6 +8,4 @@
     <dimen name="screenMargin">15dp</dimen>
     <dimen name="topPadding">10dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
-
-
 </resources>

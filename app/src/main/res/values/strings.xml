@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">StylishApp</string>
+    <string name="author">Developed by: Kuldeep Debnath</string>
 </resources>
