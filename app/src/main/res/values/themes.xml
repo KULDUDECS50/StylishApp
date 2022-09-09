@@ -11,7 +11,7 @@
     <!-- The AppThemePink style theme inherits from the default theme (same as above)
      and only changes the key colors and adds more properties to it  -->
 
-    <style name="AppThemePink" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppThemeTate" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/primaryColorNavy</item>
         <item name="colorPrimaryDark">@color/primaryDarkColorNavy</item>
         <item name="colorAccent">@color/primaryDarkColorNavy</item>
@@ -53,11 +53,20 @@
         <item name="android:padding">@dimen/editTextPadding</item>
         <item name="android:layout_width">@dimen/editTextWidth</item>
         <item name="android:layout_height">@dimen/editTextHeight</item>
+        <item name="borderRound">@dimen/editTextRadius</item>
+
+
     </style>
 
     <style name="TextViewCustom">
         <item name="android:textColor">@color/secondaryDarkColorNavy</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextViewTitle">
+        <item name="android:textColor">@color/secondaryLightColor</item>
         <item name="android:textSize">36sp</item>
+        <item name="titleMarginBottom">15dp</item>
+
     </style>
 
 </resources>

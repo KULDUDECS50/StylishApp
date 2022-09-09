@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#000">
+    android:background="#222">
 
 
     <LinearLayout
@@ -15,6 +15,14 @@
         android:layout_margin="@dimen/screenMargin"
         android:gravity="center_horizontal"
         >
+
+        <TextView
+            style="@style/TextViewTitle"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:paddingTop="@dimen/topPadding"
+            android:shadowColor="#BF360C"
+            android:text="First Name" />
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
@@ -35,6 +43,9 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:text="Last Name"
+            android:paddingTop="@dimen/topPadding"
+
+            style="@style/TextViewCustom"
 
             />
 
@@ -49,20 +60,20 @@
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:text="Phone Number"
+            android:text="Rizz"
             android:paddingTop="@dimen/topPadding"/>
 
         <EditText
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:id="@+id/phoneNum"
+            android:id="@+id/rizz"
             android:inputType="number"
             />
 
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:text="Email"
+            android:text="Color Bugatti"
             android:paddingTop="@dimen/topPadding"/>
 
         <EditText
