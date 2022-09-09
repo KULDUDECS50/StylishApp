@@ -1,4 +1,4 @@
-<resources>
+<resources >
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -16,7 +16,7 @@
         <item name="colorPrimaryDark">@color/primaryDarkColorNavy</item>
         <item name="colorAccent">@color/primaryDarkColorNavy</item>
         <item name="android:textColor">@color/primaryTextColorNavy</item>
-        <item name="android:textSize">@dimen/fontsize</item>
+        <item name="android:textSize">@dimen/fontSize</item>
         <item name="editTextStyle">@style/EditTextTest</item>
         <item name="android:textViewStyle">@style/TextViewCustom</item>
     </style>
@@ -29,7 +29,7 @@
         <item name="colorPrimaryDark">@color/primaryDarkColorNavy</item>
         <item name="colorAccent">@color/primaryLightColorNavy</item>
         <item name="android:textColor">@color/primaryTextColorNavy</item>
-        <item name="android:textSize">@dimen/fontsize</item>
+        <item name="android:textSize">@dimen/fontSize</item>
     </style>
 
 
@@ -63,9 +63,10 @@
         <item name="android:textSize">24sp</item>
     </style>
     <style name="TextViewTitle">
-        <item name="android:textColor">@color/secondaryLightColor</item>
-        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/primaryLightColor</item>
+        <item name="android:textSize">30sp</item>
         <item name="titleMarginBottom">15dp</item>
+        <item name="titleMarginTop">15dp</item>
 
     </style>
 

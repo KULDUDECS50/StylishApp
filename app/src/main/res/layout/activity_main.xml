@@ -22,7 +22,7 @@
             android:layout_height="@dimen/editTextHeight"
             android:paddingTop="@dimen/topPadding"
             android:shadowColor="#BF360C"
-            android:text="First Name" />
+            android:text="Hustlers University" />
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
@@ -80,7 +80,7 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:id="@+id/email"
-            android:textColor="@color/secondaryTextColorNavy"
+            android:textColor="@color/secondaryTextColorGold"
             android:inputType="textEmailAddress"
             />
         <!-- you can see this textColor overrides the

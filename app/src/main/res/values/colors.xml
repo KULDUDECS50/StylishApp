@@ -51,7 +51,8 @@
     <color name="primaryTextColorNavy">#39ace7</color>
 
     <color name="secondaryTextColorNavy">#0784b5</color>
-    <?xml version="1.0"?>
+
+    <color name="secondaryTextColorGold">#ffd230</color>
 
     <!--?xml version="1.0" encoding="UTF-8"?-->
 
