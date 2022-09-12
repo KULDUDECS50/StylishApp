@@ -1,5 +1,15 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources >
     <!-- need an AppThemeTate here -->
+    <style name="AppThemeTate" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColorNavy</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColorNavy</item>
+        <item name="colorAccent">@color/primaryDarkColorNavy</item>
+        <item name="android:textColor">@color/primaryTextColorNavy</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="editTextStyle">@style/EditTextTest</item>
+        <item name="android:textViewStyle">@style/TextViewCustom</item>
+    </style>
+
     <style name="StylishAppCustomTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
@@ -7,15 +17,14 @@
         <item name="android:textColor">@color/primaryTextColor</item>
         <item name="colorSecondaryVariant">@color/primaryLightColor</item>
         <item name="colorOnSecondary">@color/secondaryDarkColor</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-
+    </style>
     <!-- Customize your theme here. -->
         <style name="EditTextCustom" parent="android:style/Widget.EditText">
             <item name="android:background">@color/primaryDarkColor</item>
-            <item name="android:textColor">@color/black</item>
+            <item name="android:textColor">#000</item>
             <item name="android:padding">@dimen/editTextPadding</item>
             <item name="android:layout_width">@dimen/editTextWidth</item>
             <item name="android:layout_height">@dimen/editTextHeight</item>
         </style>
-    </style>
+
 </resources>
