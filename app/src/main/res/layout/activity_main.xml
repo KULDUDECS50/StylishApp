@@ -14,6 +14,7 @@
         android:orientation="vertical"
         android:layout_margin="@dimen/screenMargin"
         android:gravity="center_horizontal"
+        android:layout_gravity="center"
         >
 
         <TextView
@@ -21,20 +22,24 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:paddingTop="@dimen/topPadding"
+            android:layout_margin="@dimen/marginCustom"
             android:shadowColor="#BF360C"
-            android:text="Hustlers University" />
+            android:gravity="center"
+
+            android:text="@string/hustlers_university" />
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:text="First Name"
+            android:text="@string/first_name"
             android:paddingTop="@dimen/topPadding"
+
             style="@style/TextViewCustom"/>
 
         <EditText
             android:id="@+id/firstName"
             android:inputType="textCapWords"
             style="@style/EditTextCustom"
-            android:hint="Andrew"/>
+            android:hint="@string/andrew"/>
         <!--  Here I applied a different style for the
             EditText than what is applied at the theme level
         -->
@@ -42,7 +47,7 @@
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:text="Last Name"
+            android:text="@string/last_name"
             android:paddingTop="@dimen/topPadding"
 
             style="@style/TextViewCustom"
@@ -54,13 +59,13 @@
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
             android:inputType="textCapWords"
-            android:hint="Tate"
+            android:hint="@string/tate"
             />
 
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:text="Rizz"
+            android:text="@string/rizz"
             android:paddingTop="@dimen/topPadding"/>
 
         <EditText
@@ -73,7 +78,7 @@
         <TextView
             android:layout_width="@dimen/editTextWidth"
             android:layout_height="@dimen/editTextHeight"
-            android:text="Color Bugatti"
+            android:text="@string/color_bugatti"
             android:paddingTop="@dimen/topPadding"/>
 
         <EditText
@@ -101,10 +106,10 @@
 <!--            android:inputType="textPassword" />-->
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="119dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="100dp"
-            android:layout_marginTop="50dp"
+            android:layout_margin="@dimen/marginCustom"
+            android:padding="@dimen/padding"
             android:text="hustle" />
 
     </LinearLayout>

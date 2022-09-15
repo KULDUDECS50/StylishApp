@@ -17,6 +17,9 @@
         <item name="colorAccent">@color/primaryDarkColorNavy</item>
         <item name="android:textColor">@color/primaryTextColorNavy</item>
         <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_margin">@dimen/marginCustom</item>
+
         <item name="editTextStyle">@style/EditTextTest</item>
         <item name="android:textViewStyle">@style/TextViewCustom</item>
     </style>
@@ -53,6 +56,8 @@
         <item name="android:padding">@dimen/editTextPadding</item>
         <item name="android:layout_width">@dimen/editTextWidth</item>
         <item name="android:layout_height">@dimen/editTextHeight</item>
+        <item name="android:layout_margin">@dimen/marginEdit</item>
+
         <item name="borderRound">@dimen/editTextRadius</item>
 
 

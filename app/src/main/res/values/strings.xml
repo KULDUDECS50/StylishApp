@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">StylishApp</string>
     <string name="author">Developed by: Kuldeep Debnath</string>
+    <string name="hustlers_university">Hustlers University</string>
+    <string name="first_name">First Name</string>
+    <string name="andrew">Andrew</string>
+    <string name="last_name">Last Name</string>
+    <string name="tate">Tate</string>
+    <string name="rizz">Rizz</string>
+    <string name="color_bugatti">Color Bugatti</string>
 </resources>
