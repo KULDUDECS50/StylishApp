@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Create the intent () and call its constructor and tell it where the
         //intent is coming from (first param) and where it is going (second param)
-        Intent intent = new Intent(this,AnotherGrid.class);
+        Intent intent = new Intent(this,MainActivity2.class);
         //
         intent.putExtra("textView2", name);
         //
