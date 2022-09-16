@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_margin="@dimen/screenMargin"
         android:gravity="center_horizontal"
         android:layout_gravity="center"
         >
@@ -110,7 +109,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/marginCustom"
             android:padding="@dimen/padding"
-            android:text="hustle" />
+            android:text="hustle"
+            android:onClick="switchScreens"/>
 
     </LinearLayout>
 </ScrollView>
