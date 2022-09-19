@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#222">
+    android:background="#222"
+    android:padding="0dp"
+    android:layout_margin="0dp">
 
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center_horizontal"
         android:layout_gravity="center"
@@ -23,7 +26,8 @@
             android:paddingTop="@dimen/topPadding"
             android:layout_margin="@dimen/marginCustom"
             android:shadowColor="#BF360C"
-            android:gravity="center"
+            android:layout_gravity="center"
+            android:theme="@style/TextViewTitle"
 
             android:text="@string/hustlers_university" />
         <TextView
@@ -62,10 +66,10 @@
             />
 
         <TextView
-            android:layout_width="@dimen/editTextWidth"
-            android:layout_height="@dimen/editTextHeight"
+
             android:text="@string/rizz"
-            android:paddingTop="@dimen/topPadding"/>
+            style="@style/TextViewCustom"
+            />
 
         <EditText
             android:layout_width="@dimen/editTextWidth"
@@ -110,7 +114,7 @@
             android:layout_margin="@dimen/marginCustom"
             android:padding="@dimen/padding"
             android:text="hustle"
-            android:onClick="switchScreens"/>
+            android:onClick="switchScreensOne"/>
 
     </LinearLayout>
 </ScrollView>

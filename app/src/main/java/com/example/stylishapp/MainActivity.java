@@ -15,18 +15,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void switchScreens(View veiw){
-        //make a reference to the EditText in the xml for the page
-        EditText editText = findViewById(R.id.editTextTextPersonName);
-        // extract the String text from this editText
-        String name = editText.getText().toString();
+    public void switchScreensOne(View veiw){
+
 
         // Create the intent () and call its constructor and tell it where the
         //intent is coming from (first param) and where it is going (second param)
         Intent intent = new Intent(this,MainActivity2.class);
-        //
-        intent.putExtra("textView2", name);
-        //
+        ////
         startActivity(intent);
     }
 }
