@@ -9,7 +9,7 @@
     <dimen name="topPadding">10dp</dimen>
     <dimen name="editTextPadding">10dp</dimen>
     <dimen name="editTextRadius">5dp</dimen>
-    <dimen name="padding">15dp</dimen>
+    <dimen name="padding">5dp</dimen>
     <dimen name="marginCustom">8dp</dimen>
     <dimen name="marginEdit">4dp</dimen>
     <dimen name="gravityCenter">left</dimen>
